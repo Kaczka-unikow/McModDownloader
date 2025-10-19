@@ -13,7 +13,7 @@ print(modlist)
 for mod_key in modlist.keys():
 	try:
 		url = modlist[mod_key]
-		file_name = os.path.join(os.getcwd(), f'{mod_key}.jar')
+		file_name = os.path.join(download_dir, f'{mod_key}.jar')
 		response = requests.get(url)
 		file = response.content
 		with open(file_name, "wb") as new_file:
