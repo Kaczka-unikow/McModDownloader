@@ -18,9 +18,9 @@ for mod_key in modlist.keys():
 		file = response.content
 		with open(file_name, "wb") as new_file:
 			new_file.write(file)
-		print(f"Udało się pobrać {mod_key}.jar!")
+		print(f"Successfully downloaded {mod_key}.jar!")
 	except requests.exceptions.RequestException as e:
-		print(f"Błąd podczas pobierania pliku: {e}")
+		print(f"Error downloading file: {e}")
 	except Exception as e:
-		print(f"Wystąpił nieoczekiwany błąd: {e}")
+		print(f"An unexpected error occurred: {e}")
 	
