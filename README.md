@@ -32,8 +32,8 @@ pip install requests python-dotenv
 ## 📂 Project Structure
 
 simple-mc-mod-downloader/  
-├── mods.json                  # (optional) Simple mod list  
-├── modpackdownloader.py       # Main script  
+├── mods.json                  # Simple mod list  
+├── modpackdownloader.py       # Main script needs .env  
 ├── .env                       # (optional) For Modrinth modpacks  
 └── README.md
 
@@ -86,3 +86,5 @@ For more details, see the full license here: [https://creativecommons.org/licens
 📝 Easier way to add mods — no need to manually edit `mods.json`
 
 🚀 C++ version
+
+🪟 A Powershell CLI
