@@ -31,10 +31,10 @@ pip install requests python-dotenv
 
 ## 📂 Project Structure
 
-simple-mc-mod-downloader/
-├── mods.json                  # (optional) Simple mod list
-├── modpackdownloader.py       # Main script
-├── .env                       # (optional) For Modrinth modpacks
+simple-mc-mod-downloader/  
+├── mods.json                  # (optional) Simple mod list  
+├── modpackdownloader.py       # Main script  
+├── .env                       # (optional) For Modrinth modpacks  
 └── README.md
 
 
