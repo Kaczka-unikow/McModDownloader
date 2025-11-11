@@ -21,7 +21,7 @@ def main():
 		return
 	print("Hello!")
 	print("Welcome to simple mod downloader!")
-	print("This project is licensed under Creative Commons Attribution-NonComercial-ShareAlike 4.0 International License. Read more /LICENSE")
+	print("This project is licensed under Creative Commons Attribution-NonComercial-ShareAlike 4.0 International License")
 
 
 
