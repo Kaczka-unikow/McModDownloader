@@ -20,7 +20,8 @@ def main():
 		sleep(10)
 		return
 	print("Hello!")
-	print("Welcome in simple mod downloader!")
+	print("Welcome to simple mod downloader!")
+	print("This project is licensed under Creative Commons Attribution-NonComercial-ShareAlike 4.0 International License. Read more /LICENSE")
 
 
 
