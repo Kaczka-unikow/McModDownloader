@@ -17,7 +17,7 @@ def main():
 		print("Some error occurred: ")
 		print(e)
 		print(f"Prodobly {path} doesn't exist or have bad construction")
-		sleep(10)
+		input()
 		return
 	print("Hello!")
 	print("Welcome to simple mod downloader!")
@@ -41,6 +41,7 @@ def main():
 			print(f"An unexpected error occurred: {e}")
 	
 	print("Downloading finished")
+	input()
 	
 
 if __name__ == "__main__":
