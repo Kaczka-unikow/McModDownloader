@@ -2,3 +2,6 @@ mods/
 resourcepacks/
 downloads/
 releases/
+build/
+dist/
+main.spec
